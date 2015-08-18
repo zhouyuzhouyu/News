@@ -3,8 +3,7 @@ use_frameworks!
 
 target 'News' do
     pod 'Alamofire', '~> 1.3.1'
-    
-
+    pod 'SDWebImage', '~> 3.7.3'
 end
 
 target 'NewsTests' do

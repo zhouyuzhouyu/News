@@ -7,240 +7,431 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C38D9CE1C89AC2193EE86E5 /* Pods-News-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF74287C91F54D66F362FF91 /* Pods-News-Alamofire-dummy.m */; };
-		0C5A6755A48CB41AE0D330D8 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7811985EE5659505AAC870 /* Manager.swift */; };
-		123C830E91FD08107BD54E2A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD08B918410AD680E164AF06 /* ParameterEncoding.swift */; };
-		1B358E0FBB3E81AF4F714B2D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6540EBBCF0E19C07E93FA99A /* Validation.swift */; };
-		3433798B4400D5A438B36A77 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E337E9D11152A73EB1AC1AF5 /* Request.swift */; };
-		3BBEB8B3BF1AEE3B52F88E56 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68EAE6CE96E0893AA7AAF1 /* MultipartFormData.swift */; };
-		5353978BEEFB2DF7CD2F74E4 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826D0F9391FDEA4488B32D44 /* ResponseSerialization.swift */; };
-		5C4128FB52FEB4F432704C8A /* Pods-News-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 521CCBE23764712D79FCCB75 /* Pods-News-dummy.m */; };
-		67807D226FEBD0198F8DC5BD /* Pods-News-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70228834DE3399BCCCEE63F7 /* Pods-News-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E95940611870B31123391F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C77ED310C5EB8E758D1F5DE /* Foundation.framework */; };
-		83A2C069E4EB8CCD975875EB /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E2B6587929B698775B816 /* ServerTrustPolicy.swift */; };
-		A5A496D4558D265DC4059E66 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCE843CF5EBB4716090B72 /* Alamofire.swift */; };
-		BAD27F5FFB55C98CE81B678B /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4255B11C229390C5E8880AA /* Upload.swift */; };
-		C592F936A365E9B9336DA5DE /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C3B3BE7B75E8E99A02824 /* Download.swift */; };
-		E1B8CF13D6B55705B1C04375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C77ED310C5EB8E758D1F5DE /* Foundation.framework */; };
-		EE46EB898D27E40EBF3B03EE /* Pods-News-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED819D797EB34573CD3228A /* Pods-News-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1697B9D84DDF3B40D63E43 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 136F3D0BBD4666D07B0B56A4 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C7BBBE9D7B44049362608DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7C702716D08AF8D5588B3B /* Foundation.framework */; };
+		1F13DBBE9098A3117BEEAC26 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9706456DD2C5C70F6707847E /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D6AB3B76A9C1F253B68257A /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D042E6481F0A9EE9FFBEF /* Manager.swift */; };
+		2EFE5C233D66B36D3FF96F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7C702716D08AF8D5588B3B /* Foundation.framework */; };
+		30689F0AA5C91A7950880582 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA9F30DED75E36938AAC0B0 /* Upload.swift */; };
+		323F5B5119A8A610C4E0CD9F /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C898BF9FC22D529055FE8 /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36F5EA2FA60F6F97CD4A3BCA /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8810A1D89A2E824E85BA0 /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3975BCE425E233D5544872BF /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = CABD7FBAE67679752A014000 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AA8226BD0452291CE135E50 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3969EBEC732990835F6C3343 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E45FB885CDE293CE5DDA61E /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F4C666FD1F54849F0B186 /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45CA827ACBE189161E4CD042 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6222F347B9DF1514D4F106A2 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4826BA388769CFB1C4B9686E /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDA6104B3BE006E987D6DA /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E56EE074EDB46321A960D38 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9A295066726B044592AB45 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501C648C85F12DE9D95E95C6 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 77808404326D1EDDAF453862 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52118723DE6F0DE698E25F90 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF42948E35301E2B919E2C10 /* ImageIO.framework */; };
+		52D65858A2D4A0709ECBE3DF /* Pods-News-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63190373A93EF87EC00B56 /* Pods-News-Alamofire-dummy.m */; };
+		5359DD8020FEB223E8ACDFF8 /* Pods-News-SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B5763C56B03E76DFB7485F /* Pods-News-SDWebImage-dummy.m */; };
+		62BD1B51DC0E6A18218BF1B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7C702716D08AF8D5588B3B /* Foundation.framework */; };
+		62F494A6E82D6DF09A1BC42B /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A30C1A0D6E1C13AC221568 /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		664BC806021CF606A7306E1E /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCDA6B1DEA4974BA83752D2 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		700EA9E2CA95C6AAE4A5056F /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A26E2D9671EEB0889CADB4 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		708C8B99CD634064B25CA1BF /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7B7B0B0C1F7DEA681946F2 /* Alamofire.swift */; };
+		7A0AA2836C4DB8836CBEC76C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B06978F60017E6C644147606 /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7ADBA305565FCCF9A92294D7 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3809AA5955ED58E50EC4D4 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E1CF150AC276F1E844710C9 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3642A57C3AE50595739F140E /* ResponseSerialization.swift */; };
+		80283CEBD1AAA8D3BFCD94CF /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A8AE924F87918CFAB2398 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E05C88911A1006E343740F6 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EF26D0BDDE46072F99AC4BEC /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E3D724065F7B1099149C83 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C63473F83BC443B5F850D84 /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A825263CE01C1D9DB711F5F /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 00944EE7820421073C66D1BC /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DD9503D92728697D2AE20E5 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1AE75E15B00340700F3FAF /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A355F05AD76FD8C056B7020B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3B4F7DBB3201B3350891E /* MultipartFormData.swift */; };
+		A3D84AE55B86F4E94A05E1E3 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A53581D61DCA726369DAA /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A49ED6841C1C580032283D4D /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E27562340EF00A985FBDEE4 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D965EE972092785158A211 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BBBAE5192FD8AA1BE7F5F1 /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A53009E9CCFAAED4C0EC4D90 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FECE8D0FC0657DB6091CB26 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A65AF06E54C4CCDFBC6F2A2F /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E10DF20CBD4020F0C393D5 /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A92E72A46F99BEA042D06C86 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 834B9AFA3FFB5C0DE66C8B39 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9E7C21B965E684FDCBE97F /* Pods-News-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F073D462FD8731D52185F /* Pods-News-dummy.m */; };
+		AF1B4764F71BCA1E7FE22B3B /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A621A17629EB86CCF71453BB /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B93FA979E372D430A384C700 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082058B00ACDBD305BCA886 /* ServerTrustPolicy.swift */; };
+		C2A43366ADD0EBC965663A15 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC13FCB29E6AD0346DDC95E /* Request.swift */; };
+		CF4555DA9A577C35CC4F177B /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60652B80010AE5A41FFC4E77 /* ParameterEncoding.swift */; };
+		DD4C5B24B2F7E0564051A8FC /* Pods-News-SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F82472BF6F103292B8CDCF69 /* Pods-News-SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50232A6B44055C1EE5A7193 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B3977D1FB51B3F5021D63481 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5BFC66322ACD6E7C28F0608 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688EC29E93E5A6D72BFEDBE /* Validation.swift */; };
+		E62EB1D5137417200CE7E5D0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5495DAC47CF5FF43C6068A /* Download.swift */; };
+		F222EE40DF0C7566A66D22B3 /* Pods-News-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D230564F162337D08CAC377 /* Pods-News-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F35F05C554C4CEF439A15EAA /* Pods-News-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0016EB105655B74784191A /* Pods-News-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FCF6845E8A9FB6DCF81E4DFC /* PBXContainerItemProxy */ = {
+		07941A6BA39BB06DF998724A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5974914858020B44D26DACCC /* Project object */;
+			containerPortal = 4F0960C1AFF6B5BC1A5217BB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 946D51C479EAAA479DA30846;
+			remoteGlobalIDString = C0A3CCA8E269B5BF5BB48288;
+			remoteInfo = "Pods-News-SDWebImage";
+		};
+		0A7D874D5254B9160A5AF66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F0960C1AFF6B5BC1A5217BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED4D978CE399C50E1D7B64A;
 			remoteInfo = "Pods-News-Alamofire";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09BE819486267CA07AEE2DF1 /* Pods-News-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		1C77ED310C5EB8E758D1F5DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		254178270B7743F766E66939 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		27E9E30F25B91EB22FDAAD42 /* Pods-News.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-News.modulemap"; sourceTree = "<group>"; };
-		2DFD65FD580DF1F1EDF2D5E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45BB16C718CC5674BCEFD922 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FEE11A74E3ACAEF42F6902E /* Pods-News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News.release.xcconfig"; sourceTree = "<group>"; };
-		511F69DEC1AE7953C3176284 /* Pods-News-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		521CCBE23764712D79FCCB75 /* Pods-News-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-News-dummy.m"; sourceTree = "<group>"; };
-		59C22D941834B3A06E1D924C /* Pods-News-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-News-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6540EBBCF0E19C07E93FA99A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		686D9EC2637C2BBE48002931 /* Pods-News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News.debug.xcconfig"; sourceTree = "<group>"; };
-		70228834DE3399BCCCEE63F7 /* Pods-News-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		81D331FD4D10AAF8426B5A46 /* Pods-News-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-News-Alamofire.modulemap"; sourceTree = "<group>"; };
-		826D0F9391FDEA4488B32D44 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		873C3B3BE7B75E8E99A02824 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		8A7811985EE5659505AAC870 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		8F68EAE6CE96E0893AA7AAF1 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		953A03BCEFF1E0AAD0CE6C1E /* Pods_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DFBD5F11E112DE5A1F3EEA2 /* Pods-News-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-News-frameworks.sh"; sourceTree = "<group>"; };
-		A3ED48F73F71C3BDB93BF5E6 /* Pods-News-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-environment.h"; sourceTree = "<group>"; };
-		B55883F9ACC5D373754BF262 /* Pods-News-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-News-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB8E2B6587929B698775B816 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		BD08B918410AD680E164AF06 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		C3D3B5D30274797363400587 /* Pods-News-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		DD5FA700A353AE1D3044F7CE /* Pods-News-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-News-resources.sh"; sourceTree = "<group>"; };
-		E178C464631AC40F56AD9AB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E337E9D11152A73EB1AC1AF5 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		EF74287C91F54D66F362FF91 /* Pods-News-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-News-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		F4255B11C229390C5E8880AA /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		F9BCE843CF5EBB4716090B72 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		FED819D797EB34573CD3228A /* Pods-News-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-umbrella.h"; sourceTree = "<group>"; };
+		0044F77E5DEAEB6DECF223CA /* Pods-News-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		00944EE7820421073C66D1BC /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		01B5763C56B03E76DFB7485F /* Pods-News-SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-News-SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		0338E2C9E0D0793936F79C2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11ADEAEC8CFAAE38E2CB66B8 /* Pods-News-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-News-acknowledgements.plist"; sourceTree = "<group>"; };
+		136F3D0BBD4666D07B0B56A4 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		1B7C702716D08AF8D5588B3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1EA9F30DED75E36938AAC0B0 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		21E10DF20CBD4020F0C393D5 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		2656D1636FF8EE5C3933FBDC /* Pods-News-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-News-resources.sh"; sourceTree = "<group>"; };
+		2DC13FCB29E6AD0346DDC95E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		2DDDA6104B3BE006E987D6DA /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		356A943AEA6B8923834535E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3642A57C3AE50595739F140E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		3969EBEC732990835F6C3343 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		407D042E6481F0A9EE9FFBEF /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		4227F411210482B4EAAD5AC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A973B60ECA64A6E1A4C2949 /* Pods-News-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-News-Alamofire.modulemap"; sourceTree = "<group>"; };
+		4B9A295066726B044592AB45 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		4C63473F83BC443B5F850D84 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		553AC3C4BAEB584D3CF5F6B8 /* Pods-News-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		580A8AE924F87918CFAB2398 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		60652B80010AE5A41FFC4E77 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		6222F347B9DF1514D4F106A2 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		6BCDA6B1DEA4974BA83752D2 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		6D230564F162337D08CAC377 /* Pods-News-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-umbrella.h"; sourceTree = "<group>"; };
+		6E27562340EF00A985FBDEE4 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		6FECE8D0FC0657DB6091CB26 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		73D9A8A5D06EDA32D1C216B8 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D29BC2504FED3DAF4AE8A2 /* Pods-News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News.debug.xcconfig"; sourceTree = "<group>"; };
+		77808404326D1EDDAF453862 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		77A26E2D9671EEB0889CADB4 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		792D72841705F9E720EAAF4E /* Pods-News-SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		81604AA5D269475F81EEDF8C /* Pods-News-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		834B9AFA3FFB5C0DE66C8B39 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		84147596F4712AAD9AF4EDC8 /* Pods-News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News.release.xcconfig"; sourceTree = "<group>"; };
+		8688EC29E93E5A6D72BFEDBE /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		8B5495DAC47CF5FF43C6068A /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		9082058B00ACDBD305BCA886 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		9706456DD2C5C70F6707847E /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		972294F94579061126B82A6D /* Pods-News-SDWebImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News-SDWebImage-Private.xcconfig"; sourceTree = "<group>"; };
+		98F8810A1D89A2E824E85BA0 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		9B5C898BF9FC22D529055FE8 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		9BB3B4F7DBB3201B3350891E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		9F9FBEC9407BD0319027B34A /* Pods-News.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-News.modulemap"; sourceTree = "<group>"; };
+		A61A53581D61DCA726369DAA /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		A621A17629EB86CCF71453BB /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		B06978F60017E6C644147606 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		B3977D1FB51B3F5021D63481 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		BB0016EB105655B74784191A /* Pods-News-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		BB1AE75E15B00340700F3FAF /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		BC3809AA5955ED58E50EC4D4 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		C31F4C666FD1F54849F0B186 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		CABD7FBAE67679752A014000 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		D7BBBAE5192FD8AA1BE7F5F1 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		DB0F073D462FD8731D52185F /* Pods-News-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-News-dummy.m"; sourceTree = "<group>"; };
+		DE744F2D75B602BB74DFB975 /* Pods-News-SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-News-SDWebImage.modulemap"; sourceTree = "<group>"; };
+		DE81CDD238A377F48821019E /* Pods_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A3F4A4DCE8D596FACD422C /* Pods-News-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-News-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8A30C1A0D6E1C13AC221568 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		EC466940B81E05E9C0B046B6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED7B7B0B0C1F7DEA681946F2 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		EF26D0BDDE46072F99AC4BEC /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		EF42948E35301E2B919E2C10 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		F38CC916041974D973A74B14 /* Pods-News-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-environment.h"; sourceTree = "<group>"; };
+		F82472BF6F103292B8CDCF69 /* Pods-News-SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-News-SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		F94BF55588A68D6F950CD284 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC63190373A93EF87EC00B56 /* Pods-News-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-News-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		FF56CB558FAD99A515AEDA9F /* Pods-News-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-News-frameworks.sh"; sourceTree = "<group>"; };
+		FFBC9E8A084ABE0EDFFD6D39 /* Pods-News-SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-News-SDWebImage.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB20A2D91179B2EF9CA3EEDB /* Frameworks */ = {
+		1D2947655EEFFA5BC77BAE4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B8CF13D6B55705B1C04375 /* Foundation.framework in Frameworks */,
+				62BD1B51DC0E6A18218BF1B1 /* Foundation.framework in Frameworks */,
+				52118723DE6F0DE698E25F90 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEE83D704162E5B5076C545A /* Frameworks */ = {
+		44B9E6C6C67EDB7FBF29085B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E95940611870B31123391F2 /* Foundation.framework in Frameworks */,
+				0C7BBBE9D7B44049362608DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A0C0B5E37242829E68BE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE5C233D66B36D3FF96F5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AE55DC1FCB5470E769BC730 /* Targets Support Files */ = {
+		068E7068F69849D0824F3A76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E68B4A6EF0BA7A468563D2F6 /* Pods-News */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1BB2F2E9EE8B2ABD1EE18101 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BAD682BE82AF5E623A365511 /* Alamofire */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2642FDA4207EF1DF3231032F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1C77ED310C5EB8E758D1F5DE /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		3257D7763D245F4442C4BCA0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				45BB16C718CC5674BCEFD922 /* Alamofire.framework */,
-				953A03BCEFF1E0AAD0CE6C1E /* Pods_News.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3265580645C04369C8E3E8A1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2642FDA4207EF1DF3231032F /* iOS */,
+				C3D67F04B0C74050F92D10C0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		63E526F4F70672E332C30824 = {
+		0E9C3058F422126F90A46D9B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				254178270B7743F766E66939 /* Podfile */,
-				3265580645C04369C8E3E8A1 /* Frameworks */,
-				1BB2F2E9EE8B2ABD1EE18101 /* Pods */,
-				3257D7763D245F4442C4BCA0 /* Products */,
-				0AE55DC1FCB5470E769BC730 /* Targets Support Files */,
+				134B6958EB483C29B5F0F2D9 /* Pods-News */,
 			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9A9B37490E6A421DA50F51A4 /* Support Files */ = {
+		1250C9A7A65A1E7C3B0CA8D2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E178C464631AC40F56AD9AB8 /* Info.plist */,
-				81D331FD4D10AAF8426B5A46 /* Pods-News-Alamofire.modulemap */,
-				511F69DEC1AE7953C3176284 /* Pods-News-Alamofire.xcconfig */,
-				09BE819486267CA07AEE2DF1 /* Pods-News-Alamofire-Private.xcconfig */,
-				EF74287C91F54D66F362FF91 /* Pods-News-Alamofire-dummy.m */,
-				C3D3B5D30274797363400587 /* Pods-News-Alamofire-prefix.pch */,
-				70228834DE3399BCCCEE63F7 /* Pods-News-Alamofire-umbrella.h */,
+				4227F411210482B4EAAD5AC7 /* Info.plist */,
+				4A973B60ECA64A6E1A4C2949 /* Pods-News-Alamofire.modulemap */,
+				553AC3C4BAEB584D3CF5F6B8 /* Pods-News-Alamofire.xcconfig */,
+				81604AA5D269475F81EEDF8C /* Pods-News-Alamofire-Private.xcconfig */,
+				FC63190373A93EF87EC00B56 /* Pods-News-Alamofire-dummy.m */,
+				0044F77E5DEAEB6DECF223CA /* Pods-News-Alamofire-prefix.pch */,
+				BB0016EB105655B74784191A /* Pods-News-Alamofire-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-News-Alamofire";
 			sourceTree = "<group>";
 		};
-		BAD682BE82AF5E623A365511 /* Alamofire */ = {
+		134B6958EB483C29B5F0F2D9 /* Pods-News */ = {
 			isa = PBXGroup;
 			children = (
-				F9BCE843CF5EBB4716090B72 /* Alamofire.swift */,
-				873C3B3BE7B75E8E99A02824 /* Download.swift */,
-				8A7811985EE5659505AAC870 /* Manager.swift */,
-				8F68EAE6CE96E0893AA7AAF1 /* MultipartFormData.swift */,
-				BD08B918410AD680E164AF06 /* ParameterEncoding.swift */,
-				E337E9D11152A73EB1AC1AF5 /* Request.swift */,
-				826D0F9391FDEA4488B32D44 /* ResponseSerialization.swift */,
-				BB8E2B6587929B698775B816 /* ServerTrustPolicy.swift */,
-				F4255B11C229390C5E8880AA /* Upload.swift */,
-				6540EBBCF0E19C07E93FA99A /* Validation.swift */,
-				9A9B37490E6A421DA50F51A4 /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		E68B4A6EF0BA7A468563D2F6 /* Pods-News */ = {
-			isa = PBXGroup;
-			children = (
-				2DFD65FD580DF1F1EDF2D5E5 /* Info.plist */,
-				27E9E30F25B91EB22FDAAD42 /* Pods-News.modulemap */,
-				59C22D941834B3A06E1D924C /* Pods-News-acknowledgements.markdown */,
-				B55883F9ACC5D373754BF262 /* Pods-News-acknowledgements.plist */,
-				521CCBE23764712D79FCCB75 /* Pods-News-dummy.m */,
-				A3ED48F73F71C3BDB93BF5E6 /* Pods-News-environment.h */,
-				9DFBD5F11E112DE5A1F3EEA2 /* Pods-News-frameworks.sh */,
-				DD5FA700A353AE1D3044F7CE /* Pods-News-resources.sh */,
-				FED819D797EB34573CD3228A /* Pods-News-umbrella.h */,
-				686D9EC2637C2BBE48002931 /* Pods-News.debug.xcconfig */,
-				4FEE11A74E3ACAEF42F6902E /* Pods-News.release.xcconfig */,
+				0338E2C9E0D0793936F79C2F /* Info.plist */,
+				9F9FBEC9407BD0319027B34A /* Pods-News.modulemap */,
+				E6A3F4A4DCE8D596FACD422C /* Pods-News-acknowledgements.markdown */,
+				11ADEAEC8CFAAE38E2CB66B8 /* Pods-News-acknowledgements.plist */,
+				DB0F073D462FD8731D52185F /* Pods-News-dummy.m */,
+				F38CC916041974D973A74B14 /* Pods-News-environment.h */,
+				FF56CB558FAD99A515AEDA9F /* Pods-News-frameworks.sh */,
+				2656D1636FF8EE5C3933FBDC /* Pods-News-resources.sh */,
+				6D230564F162337D08CAC377 /* Pods-News-umbrella.h */,
+				76D29BC2504FED3DAF4AE8A2 /* Pods-News.debug.xcconfig */,
+				84147596F4712AAD9AF4EDC8 /* Pods-News.release.xcconfig */,
 			);
 			name = "Pods-News";
 			path = "Target Support Files/Pods-News";
 			sourceTree = "<group>";
 		};
+		14D69C4B94F0468CE4A3D214 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				356A943AEA6B8923834535E0 /* Info.plist */,
+				DE744F2D75B602BB74DFB975 /* Pods-News-SDWebImage.modulemap */,
+				FFBC9E8A084ABE0EDFFD6D39 /* Pods-News-SDWebImage.xcconfig */,
+				972294F94579061126B82A6D /* Pods-News-SDWebImage-Private.xcconfig */,
+				01B5763C56B03E76DFB7485F /* Pods-News-SDWebImage-dummy.m */,
+				792D72841705F9E720EAAF4E /* Pods-News-SDWebImage-prefix.pch */,
+				F82472BF6F103292B8CDCF69 /* Pods-News-SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-News-SDWebImage";
+			sourceTree = "<group>";
+		};
+		38D1B38100D0F5E5560816A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0D60098C8F2B300F14EE576 /* Alamofire */,
+				9A26BCA86313F3E7617BE7EE /* SDWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A26BCA86313F3E7617BE7EE /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				D1422EB06A06E60C71A93B7A /* Core */,
+				14D69C4B94F0468CE4A3D214 /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		B293663569982ABBE992A744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F94BF55588A68D6F950CD284 /* Alamofire.framework */,
+				DE81CDD238A377F48821019E /* Pods_News.framework */,
+				73D9A8A5D06EDA32D1C216B8 /* SDWebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D67F04B0C74050F92D10C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B7C702716D08AF8D5588B3B /* Foundation.framework */,
+				EF42948E35301E2B919E2C10 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D0D60098C8F2B300F14EE576 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				ED7B7B0B0C1F7DEA681946F2 /* Alamofire.swift */,
+				8B5495DAC47CF5FF43C6068A /* Download.swift */,
+				407D042E6481F0A9EE9FFBEF /* Manager.swift */,
+				9BB3B4F7DBB3201B3350891E /* MultipartFormData.swift */,
+				60652B80010AE5A41FFC4E77 /* ParameterEncoding.swift */,
+				2DC13FCB29E6AD0346DDC95E /* Request.swift */,
+				3642A57C3AE50595739F140E /* ResponseSerialization.swift */,
+				9082058B00ACDBD305BCA886 /* ServerTrustPolicy.swift */,
+				1EA9F30DED75E36938AAC0B0 /* Upload.swift */,
+				8688EC29E93E5A6D72BFEDBE /* Validation.swift */,
+				1250C9A7A65A1E7C3B0CA8D2 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		D1422EB06A06E60C71A93B7A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6FECE8D0FC0657DB6091CB26 /* NSData+ImageContentType.h */,
+				4C63473F83BC443B5F850D84 /* NSData+ImageContentType.m */,
+				6BCDA6B1DEA4974BA83752D2 /* SDImageCache.h */,
+				9706456DD2C5C70F6707847E /* SDImageCache.m */,
+				BC3809AA5955ED58E50EC4D4 /* SDWebImageCompat.h */,
+				21E10DF20CBD4020F0C393D5 /* SDWebImageCompat.m */,
+				EF26D0BDDE46072F99AC4BEC /* SDWebImageDecoder.h */,
+				2DDDA6104B3BE006E987D6DA /* SDWebImageDecoder.m */,
+				CABD7FBAE67679752A014000 /* SDWebImageDownloader.h */,
+				B3977D1FB51B3F5021D63481 /* SDWebImageDownloader.m */,
+				6222F347B9DF1514D4F106A2 /* SDWebImageDownloaderOperation.h */,
+				A61A53581D61DCA726369DAA /* SDWebImageDownloaderOperation.m */,
+				6E27562340EF00A985FBDEE4 /* SDWebImageManager.h */,
+				D7BBBAE5192FD8AA1BE7F5F1 /* SDWebImageManager.m */,
+				4B9A295066726B044592AB45 /* SDWebImageOperation.h */,
+				BB1AE75E15B00340700F3FAF /* SDWebImagePrefetcher.h */,
+				580A8AE924F87918CFAB2398 /* SDWebImagePrefetcher.m */,
+				77808404326D1EDDAF453862 /* UIButton+WebCache.h */,
+				E8A30C1A0D6E1C13AC221568 /* UIButton+WebCache.m */,
+				77A26E2D9671EEB0889CADB4 /* UIImage+GIF.h */,
+				9B5C898BF9FC22D529055FE8 /* UIImage+GIF.m */,
+				834B9AFA3FFB5C0DE66C8B39 /* UIImage+MultiFormat.h */,
+				C31F4C666FD1F54849F0B186 /* UIImage+MultiFormat.m */,
+				136F3D0BBD4666D07B0B56A4 /* UIImageView+HighlightedWebCache.h */,
+				98F8810A1D89A2E824E85BA0 /* UIImageView+HighlightedWebCache.m */,
+				00944EE7820421073C66D1BC /* UIImageView+WebCache.h */,
+				A621A17629EB86CCF71453BB /* UIImageView+WebCache.m */,
+				3969EBEC732990835F6C3343 /* UIView+WebCacheOperation.h */,
+				B06978F60017E6C644147606 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		EB28A1E7871EEB4E9028BA31 = {
+			isa = PBXGroup;
+			children = (
+				EC466940B81E05E9C0B046B6 /* Podfile */,
+				068E7068F69849D0824F3A76 /* Frameworks */,
+				38D1B38100D0F5E5560816A4 /* Pods */,
+				B293663569982ABBE992A744 /* Products */,
+				0E9C3058F422126F90A46D9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B6E8F897F30EB6E1CE3691CE /* Headers */ = {
+		4651E8266B0B9E82391C9003 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67807D226FEBD0198F8DC5BD /* Pods-News-Alamofire-umbrella.h in Headers */,
+				F35F05C554C4CEF439A15EAA /* Pods-News-Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9A81A292EDAC120816ADCB2 /* Headers */ = {
+		47F4AF45D153F9F994E04611 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE46EB898D27E40EBF3B03EE /* Pods-News-umbrella.h in Headers */,
+				F222EE40DF0C7566A66D22B3 /* Pods-News-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB3836938FB9C82B3CFEA20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53009E9CCFAAED4C0EC4D90 /* NSData+ImageContentType.h in Headers */,
+				DD4C5B24B2F7E0564051A8FC /* Pods-News-SDWebImage-umbrella.h in Headers */,
+				664BC806021CF606A7306E1E /* SDImageCache.h in Headers */,
+				7ADBA305565FCCF9A92294D7 /* SDWebImageCompat.h in Headers */,
+				8E05C88911A1006E343740F6 /* SDWebImageDecoder.h in Headers */,
+				3975BCE425E233D5544872BF /* SDWebImageDownloader.h in Headers */,
+				45CA827ACBE189161E4CD042 /* SDWebImageDownloaderOperation.h in Headers */,
+				A49ED6841C1C580032283D4D /* SDWebImageManager.h in Headers */,
+				4E56EE074EDB46321A960D38 /* SDWebImageOperation.h in Headers */,
+				9DD9503D92728697D2AE20E5 /* SDWebImagePrefetcher.h in Headers */,
+				501C648C85F12DE9D95E95C6 /* UIButton+WebCache.h in Headers */,
+				700EA9E2CA95C6AAE4A5056F /* UIImage+GIF.h in Headers */,
+				A92E72A46F99BEA042D06C86 /* UIImage+MultiFormat.h in Headers */,
+				0A1697B9D84DDF3B40D63E43 /* UIImageView+HighlightedWebCache.h in Headers */,
+				9A825263CE01C1D9DB711F5F /* UIImageView+WebCache.h in Headers */,
+				3AA8226BD0452291CE135E50 /* UIView+WebCacheOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1A6F762E2E018550E2318393 /* Pods-News */ = {
+		4CC73D24D72AAF03A9AF1E2A /* Pods-News */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F58E08AE2C32B0D197C908F /* Build configuration list for PBXNativeTarget "Pods-News" */;
+			buildConfigurationList = 5FABF1BF91C87B6A38BBD76A /* Build configuration list for PBXNativeTarget "Pods-News" */;
 			buildPhases = (
-				4DE66AE3135C63662B8F026D /* Sources */,
-				AB20A2D91179B2EF9CA3EEDB /* Frameworks */,
-				E9A81A292EDAC120816ADCB2 /* Headers */,
+				709C713613F9755AFD12B72B /* Sources */,
+				95A0C0B5E37242829E68BE06 /* Frameworks */,
+				47F4AF45D153F9F994E04611 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ECAC16E65A114E43E3162FF3 /* PBXTargetDependency */,
+				CF55531919D27537E07CB08A /* PBXTargetDependency */,
+				84E36B5D18AC8EA6E2BE3709 /* PBXTargetDependency */,
 			);
 			name = "Pods-News";
 			productName = "Pods-News";
-			productReference = 953A03BCEFF1E0AAD0CE6C1E /* Pods_News.framework */;
+			productReference = DE81CDD238A377F48821019E /* Pods_News.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		946D51C479EAAA479DA30846 /* Pods-News-Alamofire */ = {
+		C0A3CCA8E269B5BF5BB48288 /* Pods-News-SDWebImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841E73E794D128CFD788CD53 /* Build configuration list for PBXNativeTarget "Pods-News-Alamofire" */;
+			buildConfigurationList = 7383F0A31BA6F8B3851044DC /* Build configuration list for PBXNativeTarget "Pods-News-SDWebImage" */;
 			buildPhases = (
-				D3F84A0D01040DEC829B232F /* Sources */,
-				EEE83D704162E5B5076C545A /* Frameworks */,
-				B6E8F897F30EB6E1CE3691CE /* Headers */,
+				05589C4C19085287883894C2 /* Sources */,
+				1D2947655EEFFA5BC77BAE4F /* Frameworks */,
+				BEB3836938FB9C82B3CFEA20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-News-SDWebImage";
+			productName = "Pods-News-SDWebImage";
+			productReference = 73D9A8A5D06EDA32D1C216B8 /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FED4D978CE399C50E1D7B64A /* Pods-News-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25634A9EB42BF3D2F070532E /* Build configuration list for PBXNativeTarget "Pods-News-Alamofire" */;
+			buildPhases = (
+				F6BEBC52A592AEE2DDFE6AAB /* Sources */,
+				44B9E6C6C67EDB7FBF29085B /* Frameworks */,
+				4651E8266B0B9E82391C9003 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -248,109 +439,132 @@
 			);
 			name = "Pods-News-Alamofire";
 			productName = "Pods-News-Alamofire";
-			productReference = 45BB16C718CC5674BCEFD922 /* Alamofire.framework */;
+			productReference = F94BF55588A68D6F950CD284 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5974914858020B44D26DACCC /* Project object */ = {
+		4F0960C1AFF6B5BC1A5217BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 9F08967B0D0FEAE43416997F /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 052D681B13D916E1CDC251EA /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 63E526F4F70672E332C30824;
-			productRefGroup = 3257D7763D245F4442C4BCA0 /* Products */;
+			mainGroup = EB28A1E7871EEB4E9028BA31;
+			productRefGroup = B293663569982ABBE992A744 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A6F762E2E018550E2318393 /* Pods-News */,
-				946D51C479EAAA479DA30846 /* Pods-News-Alamofire */,
+				4CC73D24D72AAF03A9AF1E2A /* Pods-News */,
+				FED4D978CE399C50E1D7B64A /* Pods-News-Alamofire */,
+				C0A3CCA8E269B5BF5BB48288 /* Pods-News-SDWebImage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DE66AE3135C63662B8F026D /* Sources */ = {
+		05589C4C19085287883894C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C4128FB52FEB4F432704C8A /* Pods-News-dummy.m in Sources */,
+				90E3D724065F7B1099149C83 /* NSData+ImageContentType.m in Sources */,
+				5359DD8020FEB223E8ACDFF8 /* Pods-News-SDWebImage-dummy.m in Sources */,
+				1F13DBBE9098A3117BEEAC26 /* SDImageCache.m in Sources */,
+				A65AF06E54C4CCDFBC6F2A2F /* SDWebImageCompat.m in Sources */,
+				4826BA388769CFB1C4B9686E /* SDWebImageDecoder.m in Sources */,
+				E50232A6B44055C1EE5A7193 /* SDWebImageDownloader.m in Sources */,
+				A3D84AE55B86F4E94A05E1E3 /* SDWebImageDownloaderOperation.m in Sources */,
+				A4D965EE972092785158A211 /* SDWebImageManager.m in Sources */,
+				80283CEBD1AAA8D3BFCD94CF /* SDWebImagePrefetcher.m in Sources */,
+				62F494A6E82D6DF09A1BC42B /* UIButton+WebCache.m in Sources */,
+				323F5B5119A8A610C4E0CD9F /* UIImage+GIF.m in Sources */,
+				3E45FB885CDE293CE5DDA61E /* UIImage+MultiFormat.m in Sources */,
+				36F5EA2FA60F6F97CD4A3BCA /* UIImageView+HighlightedWebCache.m in Sources */,
+				AF1B4764F71BCA1E7FE22B3B /* UIImageView+WebCache.m in Sources */,
+				7A0AA2836C4DB8836CBEC76C /* UIView+WebCacheOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3F84A0D01040DEC829B232F /* Sources */ = {
+		709C713613F9755AFD12B72B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A496D4558D265DC4059E66 /* Alamofire.swift in Sources */,
-				C592F936A365E9B9336DA5DE /* Download.swift in Sources */,
-				0C5A6755A48CB41AE0D330D8 /* Manager.swift in Sources */,
-				3BBEB8B3BF1AEE3B52F88E56 /* MultipartFormData.swift in Sources */,
-				123C830E91FD08107BD54E2A /* ParameterEncoding.swift in Sources */,
-				0C38D9CE1C89AC2193EE86E5 /* Pods-News-Alamofire-dummy.m in Sources */,
-				3433798B4400D5A438B36A77 /* Request.swift in Sources */,
-				5353978BEEFB2DF7CD2F74E4 /* ResponseSerialization.swift in Sources */,
-				83A2C069E4EB8CCD975875EB /* ServerTrustPolicy.swift in Sources */,
-				BAD27F5FFB55C98CE81B678B /* Upload.swift in Sources */,
-				1B358E0FBB3E81AF4F714B2D /* Validation.swift in Sources */,
+				AC9E7C21B965E684FDCBE97F /* Pods-News-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BEBC52A592AEE2DDFE6AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708C8B99CD634064B25CA1BF /* Alamofire.swift in Sources */,
+				E62EB1D5137417200CE7E5D0 /* Download.swift in Sources */,
+				2D6AB3B76A9C1F253B68257A /* Manager.swift in Sources */,
+				A355F05AD76FD8C056B7020B /* MultipartFormData.swift in Sources */,
+				CF4555DA9A577C35CC4F177B /* ParameterEncoding.swift in Sources */,
+				52D65858A2D4A0709ECBE3DF /* Pods-News-Alamofire-dummy.m in Sources */,
+				C2A43366ADD0EBC965663A15 /* Request.swift in Sources */,
+				7E1CF150AC276F1E844710C9 /* ResponseSerialization.swift in Sources */,
+				B93FA979E372D430A384C700 /* ServerTrustPolicy.swift in Sources */,
+				30689F0AA5C91A7950880582 /* Upload.swift in Sources */,
+				E5BFC66322ACD6E7C28F0608 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ECAC16E65A114E43E3162FF3 /* PBXTargetDependency */ = {
+		84E36B5D18AC8EA6E2BE3709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-News-SDWebImage";
+			target = C0A3CCA8E269B5BF5BB48288 /* Pods-News-SDWebImage */;
+			targetProxy = 07941A6BA39BB06DF998724A /* PBXContainerItemProxy */;
+		};
+		CF55531919D27537E07CB08A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-News-Alamofire";
-			target = 946D51C479EAAA479DA30846 /* Pods-News-Alamofire */;
-			targetProxy = FCF6845E8A9FB6DCF81E4DFC /* PBXContainerItemProxy */;
+			target = FED4D978CE399C50E1D7B64A /* Pods-News-Alamofire */;
+			targetProxy = 0A7D874D5254B9160A5AF66E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		53DD35AD8705ADC42F64CBC0 /* Release */ = {
+		3146035761943124E97A9278 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81604AA5D269475F81EEDF8C /* Pods-News-Alamofire-Private.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-News-Alamofire/Pods-News-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-News-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-News-Alamofire/Pods-News-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		813221D435555911C90472B1 /* Debug */ = {
+		3B3FE8CB3DB18D657B7F2406 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,37 +603,9 @@
 			};
 			name = Debug;
 		};
-		8845F47F15FC11F95BDA092B /* Debug */ = {
+		7ECBF4D3EA307FE117CBB66B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09BE819486267CA07AEE2DF1 /* Pods-News-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-News-Alamofire/Pods-News-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-News-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-News-Alamofire/Pods-News-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B42E4E814A5ACD85331BAFBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 686D9EC2637C2BBE48002931 /* Pods-News.debug.xcconfig */;
+			baseConfigurationReference = 84147596F4712AAD9AF4EDC8 /* Pods-News.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -433,39 +619,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-News/Pods-News.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_News;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C0D096F5726F13019EC2A713 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09BE819486267CA07AEE2DF1 /* Pods-News-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-News-Alamofire/Pods-News-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-News-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-News-Alamofire/Pods-News-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,9 +632,36 @@
 			};
 			name = Release;
 		};
-		C7DF456127FDF3F3E3EAD5F0 /* Release */ = {
+		91514EDD14C759A7127C99E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FEE11A74E3ACAEF42F6902E /* Pods-News.release.xcconfig */;
+			baseConfigurationReference = 972294F94579061126B82A6D /* Pods-News-SDWebImage-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-News-SDWebImage/Pods-News-SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-News-SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-News-SDWebImage/Pods-News-SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE7583C10AC2EAED9C5C2893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D29BC2504FED3DAF4AE8A2 /* Pods-News.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -490,11 +675,101 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-News/Pods-News.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_News;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0AF60291929CEC3CFAB5DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81604AA5D269475F81EEDF8C /* Pods-News-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-News-Alamofire/Pods-News-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-News-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-News-Alamofire/Pods-News-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3ACE37440E275E1AF540152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6E44A66571DB219B76AF7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972294F94579061126B82A6D /* Pods-News-SDWebImage-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-News-SDWebImage/Pods-News-SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-News-SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-News-SDWebImage/Pods-News-SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,34 +781,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F58E08AE2C32B0D197C908F /* Build configuration list for PBXNativeTarget "Pods-News" */ = {
+		052D681B13D916E1CDC251EA /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B42E4E814A5ACD85331BAFBF /* Debug */,
-				C7DF456127FDF3F3E3EAD5F0 /* Release */,
+				3B3FE8CB3DB18D657B7F2406 /* Debug */,
+				F3ACE37440E275E1AF540152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841E73E794D128CFD788CD53 /* Build configuration list for PBXNativeTarget "Pods-News-Alamofire" */ = {
+		25634A9EB42BF3D2F070532E /* Build configuration list for PBXNativeTarget "Pods-News-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8845F47F15FC11F95BDA092B /* Debug */,
-				C0D096F5726F13019EC2A713 /* Release */,
+				D0AF60291929CEC3CFAB5DD7 /* Debug */,
+				3146035761943124E97A9278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F08967B0D0FEAE43416997F /* Build configuration list for PBXProject "Pods" */ = {
+		5FABF1BF91C87B6A38BBD76A /* Build configuration list for PBXNativeTarget "Pods-News" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				813221D435555911C90472B1 /* Debug */,
-				53DD35AD8705ADC42F64CBC0 /* Release */,
+				BE7583C10AC2EAED9C5C2893 /* Debug */,
+				7ECBF4D3EA307FE117CBB66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7383F0A31BA6F8B3851044DC /* Build configuration list for PBXNativeTarget "Pods-News-SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91514EDD14C759A7127C99E8 /* Debug */,
+				F6E44A66571DB219B76AF7E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5974914858020B44D26DACCC /* Project object */;
+	rootObject = 4F0960C1AFF6B5BC1A5217BB /* Project object */;
 }

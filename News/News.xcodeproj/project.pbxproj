@@ -15,6 +15,10 @@
 		B23469431B7C5027005D3CE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23469401B7C5027005D3CE1 /* LaunchScreen.xib */; };
 		B23469441B7C5027005D3CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23469411B7C5027005D3CE1 /* Main.storyboard */; };
 		B23469461B7C5055005D3CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23469451B7C5055005D3CE1 /* ViewController.swift */; };
+		B234694A1B7C700D005D3CE1 /* ZYNewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23469491B7C700C005D3CE1 /* ZYNewsListViewController.swift */; };
+		B234694D1B7C7654005D3CE1 /* TableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B234694C1B7C7654005D3CE1 /* TableData.swift */; };
+		B23469501B7C8CAC005D3CE1 /* KKNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B234694E1B7C8CAC005D3CE1 /* KKNewsCell.swift */; };
+		B234695C1B7D97A6005D3CE1 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B234695B1B7D97A6005D3CE1 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,12 @@
 		B23469401B7C5027005D3CE1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B23469411B7C5027005D3CE1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B23469451B7C5055005D3CE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B23469491B7C700C005D3CE1 /* ZYNewsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYNewsListViewController.swift; sourceTree = "<group>"; };
+		B234694C1B7C7654005D3CE1 /* TableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableData.swift; sourceTree = "<group>"; };
+		B234694E1B7C8CAC005D3CE1 /* KKNewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKNewsCell.swift; sourceTree = "<group>"; };
+		B23469561B7D9192005D3CE1 /* News-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "News-Bridging-Header.h"; sourceTree = "<group>"; };
+		B234695A1B7D97A6005D3CE1 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		B234695B1B7D97A6005D3CE1 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		B92511804D0BB4ECF3540BE9 /* Pods-News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News.release.xcconfig"; path = "Pods/Target Support Files/Pods-News/Pods-News.release.xcconfig"; sourceTree = "<group>"; };
 		F5B2D08A46AEA2D6030F535C /* Pods-News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-News/Pods-News.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				B23469451B7C5055005D3CE1 /* ViewController.swift */,
+				B23469491B7C700C005D3CE1 /* ZYNewsListViewController.swift */,
+				B234694E1B7C8CAC005D3CE1 /* KKNewsCell.swift */,
 			);
 			path = Personal;
 			sourceTree = "<group>";
@@ -131,6 +143,9 @@
 			children = (
 				B23469371B7C4F0D005D3CE1 /* Images.xcassets */,
 				B23469381B7C4F0D005D3CE1 /* Info.plist */,
+				B23469561B7D9192005D3CE1 /* News-Bridging-Header.h */,
+				B234695A1B7D97A6005D3CE1 /* test.h */,
+				B234695B1B7D97A6005D3CE1 /* test.m */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -148,8 +163,17 @@
 		B23469481B7C514E005D3CE1 /* Comm */ = {
 			isa = PBXGroup;
 			children = (
+				B234694B1B7C75F4005D3CE1 /* TableData */,
 			);
 			path = Comm;
+			sourceTree = "<group>";
+		};
+		B234694B1B7C75F4005D3CE1 /* TableData */ = {
+			isa = PBXGroup;
+			children = (
+				B234694C1B7C7654005D3CE1 /* TableData.swift */,
+			);
+			path = TableData;
 			sourceTree = "<group>";
 		};
 		B8E7EEFD98A26B84CF26D8EE /* Pods */ = {
@@ -208,6 +232,7 @@
 		B23469041B7C42AD005D3CE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "周玉";
 				TargetAttributes = {
@@ -314,8 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B234694D1B7C7654005D3CE1 /* TableData.swift in Sources */,
 				B23469461B7C5055005D3CE1 /* ViewController.swift in Sources */,
+				B234694A1B7C700D005D3CE1 /* ZYNewsListViewController.swift in Sources */,
 				B23469421B7C5027005D3CE1 /* AppDelegate.swift in Sources */,
+				B23469501B7C8CAC005D3CE1 /* KKNewsCell.swift in Sources */,
+				B234695C1B7D97A6005D3CE1 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +453,14 @@
 			baseConfigurationReference = F5B2D08A46AEA2D6030F535C /* Pods-News.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = News/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "News/SupportingFiles/News-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -437,11 +469,13 @@
 			baseConfigurationReference = B92511804D0BB4ECF3540BE9 /* Pods-News.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = News/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "News/SupportingFiles/News-Bridging-Header.h";
 			};
 			name = Release;
 		};
